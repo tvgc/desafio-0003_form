@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-out {
+    background-image: linear-gradient(90deg, #6EDAC2, #8CE2DF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 5vw;
+    color: #FFFFFF;
+}
+
+.container-in {
+    display: flex;
+}
+
+.container__logo,
+.container__form {
+    width: 450px;
+}
+
+.container__logo {
+    background-image: linear-gradient(90deg, #29E6BE, #5BF4EF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex {
+    height: 0;
+    width: 185px;
+    border-top: 75px solid white;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    position: relative;
+}
+
+.hex::after {
+    content: '';
+    height: 0;
+    width: 85px;
+    border-bottom: 75px solid white;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    position: absolute;
+    bottom: 75px;
+    left: -50px;
+}
+
+.hex__logo {
+    position: absolute;
+    top: -135px;
+    right: -15px;
+    color: black;
+    z-index: 99;
+    width: 115px;
+    height: 115px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex__desc {
+    text-align: center;
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #32425B;
+}
+
+.container__form h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container__form h3 {
+    color: #259C95;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.container__form input[type=text] {
+    display: block;
+    width: 100%;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+.container__item div {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container__item label[for=agreement] {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+
+.container__item label[for=agreement] div {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+input[type=checkbox] {
+    display: block;
+    margin-right: 15px;
+}
+
+button {
+    background-color: #1ED5B9;
+    outline: 0;
+    border: 0;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.container__last-text {
+    color: #999;
+    font-size: 10px;
+    text-align: center;
+}
+
+.container__line {
+    margin: 10px 100px;
+    height: 1px;
+    background-color: #999;
+}
+
+/* 
+
+ANIMATION
+
+*/
+
+.container__logo {
+    transition: ;
+}
