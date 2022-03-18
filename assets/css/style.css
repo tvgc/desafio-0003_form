@@ -59,6 +59,7 @@ body {
     color: #259C95;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .logo span {
@@ -107,14 +108,15 @@ body {
 .container__form h1 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 200;
+    font-size: 2em;
 }
 
 .container__form h3 {
     color: #259C95;
     text-align: center;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 300;
     margin-top: 5px;
 }
 
@@ -131,6 +133,7 @@ body {
 .container__item div {
     margin-top: 15px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .container__item label[for=agreement] {
@@ -254,6 +257,7 @@ RESPONIVE
         flex-direction: column;
         animation-name: container-in;
         animation-duration: var(--animation-duration);
+        animation-timing-function: ease-in-out;
     }
 
     @keyframes container-in {
